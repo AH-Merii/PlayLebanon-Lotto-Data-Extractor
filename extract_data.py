@@ -120,5 +120,4 @@ if __name__ == "__main__":
     pickle_file("dataframe", dataframe)
     pickle_file("numbers", numbers_array)
 
-    print(numbers_array)
-    print(dataframe.head(10))
+    dataframe.to_csv('lotto_data.csv')

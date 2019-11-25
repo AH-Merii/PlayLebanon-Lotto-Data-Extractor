@@ -13,9 +13,11 @@ Note that this is done because the website is currently not accepting any reques
 
 Run the script to extract the data.
 
-2 Files will be created:
+3 Files will be created:
   The dataframe pickle file
   The numbers pickle file
+  The lotto_data.csv file 
+
 
 The dataframe file contains a data frame that is formatted as follows:
 
@@ -23,3 +25,5 @@ Dates | num_1 | num_2 | num_3 | num_4 | num_5 | num_6 | num_extra
 --- | --- | --- | --- |--- |--- |--- |--- 
 
 The numbers file simply contains an array of all the numbers that have appeard in lottory.
+
+The lotto_data.csv contains all the data contained in the dataframe in csv format.

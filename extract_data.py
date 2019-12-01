@@ -1,4 +1,3 @@
-import requests
 from bs4 import BeautifulSoup
 from datetime import timedelta, date
 from datetime import datetime as dt
@@ -7,11 +6,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
-
-
-headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 6.0; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0"
-}
 
 
 def pickle_file(output_file_name, object_to_pickle):
@@ -120,4 +114,5 @@ if __name__ == "__main__":
     pickle_file("dataframe", dataframe)
     pickle_file("numbers", numbers_array)
 
-    dataframe.to_csv('lotto_data.csv')
+    dataframe.to_csv("lotto_data.csv")
+
